@@ -17,7 +17,7 @@ export const globalSlice = createSlice({
       azureKey: '',
     },
     chat: {
-      systemRole: 'From now on, the number of words in your reply cannot exceed 50 words.',
+      systemRole: 'From now on, the number of words in your reply cannot exceed 500 words.',
       defaultPrompt: '',
       useAssistant: false,
       temperature: 0.8,
